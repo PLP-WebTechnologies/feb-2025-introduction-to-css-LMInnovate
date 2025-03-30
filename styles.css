@@ -1,0 +1,79 @@
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to right, #ffbf00, #6a0dad, #ffd700, #c0c0c0);
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-bottom: 4px solid #ffd700;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.7);
+}
+
+
+.content {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+}
+
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+
+.intro-text {
+    color: #ffbf00; /* Amber */
+    font-weight: bold;
+}
+
+.journey-text {
+    color: #6a0dad; /* Purple */
+    font-style: italic;
+}
+
+.future-text {
+    color: #ffd700; /* Gold */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Style the image */
+.styled-image {
+    width: 50%;
+    height: auto;
+    border: 5px solid #ffffff;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Footer styling */
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffd700;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-top: 4px solid #ffbf00;
+}
